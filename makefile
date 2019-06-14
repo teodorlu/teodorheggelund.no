@@ -11,4 +11,4 @@ watch:
 
 # Fix this if the deploy repo moves.
 deploy: clean build
-	(cd ../teodorheggelund.com-site && bash refresh.sh)
+	(cd ../teodorheggelund.no-site && bash refresh.sh)
