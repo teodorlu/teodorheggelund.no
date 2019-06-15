@@ -5,4 +5,4 @@ Hei!
 ** Kontakt
 Ta kontakt på [[mailto:teodor@teodorheggelund.com][E-post]].
 ** Denne siden
-Du finner kildekoden for denne nettsiden på [[https://github.com/teodorlu/teodorheggelund.com][Github]].
+Du finner kildekoden for denne nettsiden på [[https://github.com/teodorlu/teodorheggelund.no][Github]].
