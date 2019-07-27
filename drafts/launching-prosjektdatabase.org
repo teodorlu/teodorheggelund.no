@@ -1,0 +1,69 @@
+---
+title: "Lanserering: Prosjektdatabase.no"
+author: Teodor Heggelund
+date: 2018-08-25
+---
+
+Jeg er svært interessert i grensesjiktet mellom ingeniørfag og
+informasjonsteknologi. For meg er det en herlig match mellom utfordringer og
+verktøy: ingeniørfag gir noen av de viktigste og mest spennende utfordringene
+samfunnet vårt står overfor, og informasjonsteknologi gir oss [[https://www.teodorheggelund.no/posts/niv%25C3%25A5er-av-stabilitet.html][mulighet til å
+bygge verktøyene vi bruker]]. Ingeniørfag bruker aktivt fysikk og mekanikk i
+objektive modeller som behandles med data, og programmering er det beste
+verktøyet vi har for å behandle data.
+
+Og programmering er på full fart inn i ingeniørfag. I Statens Vegvesens
+konseptstudie av Bjørnafjorden er analyseløpet basert på programmering. Hvorfor?
+Det korte svaret er at uten programmering ville prosjektet måtte gjort grove
+forenklinger i analysene for å i det hele tatt bli ferdig. Så programmering er
+en integrert del, og de fleste som gjør analysearbeid tar i nok Python til at
+den kan få inn og ut den dataen de trenger.
+
+Digital transformasjon trenger imidlertid mer enn programmering. Programmering
+er aktivt, programmering /gjør/ noe. Og det programmering /gjør/ er å
+transformere og flytte data. Så hvor skal dataen være mellom transformasjonene
+vi gjør? Det adresserer vi i datamodellering. Datamodellering handler om å bygge
+gode datamodeller. Når vi modellerer data, beslutter vi hvilken data som hører
+sammen (hvilke data som utgjør en /entitet/) og hvordan vi skal finne igjen
+dataen vår (hvordan indeksen vår ser ut). Telefonkatalogen er et kjent eksempel.
+Entitenene våre er personer (med addresse, navn og telefonnummer) og bedrifter
+(med navn, addresse, telefonnummer, forretningsområde og kanskje åpningstider).
+Indeks for personer er ofte etternavn, mens indeks for bedrift kan være navn
+eller forretningsområde.
+
+I prosessen med digitalisering av ingeniørprosjekter har digitalisering ligget
+etter programmering. Og det er helt naturlig. Programmering kan tas i bruk for å
+løse småting, og la deg løse oppgaven /en/ gang. Når vi programmerer, må vi også
+modellere dataen vi bruker, uten at denne oppgaven er noe vi har tenkt videre
+på. Vi ender gjerne opp med litt forskjellige datamodeller rundt i prosjektet.
+Noen trenger noe data, og noen trenger annen data. Og noe må deles. Så vi sender
+data rundt omkring. Da må vi også adressere hvordan vi sender dataen rundt, og
+hvilket format denne er på.
+
+Dette problemet ble identifisert innen systemutvikling [[https://en.wikipedia.org/wiki/Database#1960s,_navigational_DBMS][på 60-tallet]], som så de
+første databasene. Siden tilgjengelig datakraft var svært begrenset, var
+databasesystemet preget av optimalisering for maskinell effektivitet. Med
+raskere maskinvare på 70-tallet, fikk vi relasjonelle databaser, som heller er
+laget for å være fornuftige å bruke. Du kan spørre om hvilken data du vil ha ut,
+og senere optimalisere for fart. 70-tallet ga oss også et språk for å spørre om
+data fra databaser: [[https://en.wikipedia.org/wiki/SQL][SQL]]. SQL står for Structured Query Language, og lar oss
+hente ut og legge inn data i databasen. Ett av SQL-databasesystemene som ble
+utviklet på 70-talet er INGRES, utviklet blant andre av [[https://en.wikipedia.org/wiki/Michael_Stonebraker][Michael Stonebraker]], som
+på 90-tallet gikk videre til å utvikle PostgreSQL, tidligere kalt Postgres, fra
+post-INGRES.
+
+Så ingeniørprosjekter har startet digitalisering gjennom programmering og
+automatisering, men databaser er ikke i bruk. Hvorfor? Slik jeg ser det, er det
+tre grunner:
+
+1. Oppgaver defineres med begrensninger rundt databehandling. Tradisjonelt; her
+   må det leveres en rapport fra et team til et annet.
+2. Kompetanse på datamodellering og databasebruk. Det er ikke gitt at du kan
+   bruke databaser selv om du kan programmere.
+3. Kompetanse og organisasjonsstruktur for drift av en database. Hvordan unngår
+   man datatap? Hvordan skal man kjøre databasen? Hvem er ansvarlig for backup?
+
+Denne utfordringen ønsker jeg å adressere. Jeg lanserer derfor
+[[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
+
+Teodor
