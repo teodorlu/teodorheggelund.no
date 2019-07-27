@@ -1,5 +1,5 @@
 ---
-title: Valg av databaseplattform: fleksibilitet eller beleilighet?
+title: "Valg av databaseplattform: fleksibilitet eller beleilighet?"
 author: Teodor Heggelund
 date: 2018-08-25
 ---
