@@ -36,7 +36,9 @@ Gjennom [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]], vedder jeg p�
 3. Grunnstrukturen for databasen bruk i prosjektet bør gis rom til å utvikles
    mellom prosjekter
 
-Jeg har tro på et symbiotisk forhold mellom prosjektene og en tredjeparts
-leverandør av database.
+Jeg tror på et symbiotisk forhold mellom prosjektene og en tredjeparts
+leverandør av database. Jeg tror vi da kan treffe et nært optimalt grensesnitt.
+Og jeg tror det kan være det første steget mot reell digitalisering av
+ingeniørprosjekter.
 
 Teodor
