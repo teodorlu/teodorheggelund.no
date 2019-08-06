@@ -8,10 +8,10 @@ på nett.
 Mye er relatert til [[https://kidsakoder.no/kodeklubb/oslo/][Kodeklubben Oslo]]. Kodeklubben Oslo er et gratis tilbud for
 barn og unge som vil lære programmering. Jeg har planlagt, gjennomført og
 veiledet kurs, samt skrevet oppgaver.
-** Hotload: Kjør Python uten å restarte python.exe
+** Hotload: Programmer Python live
 Hotload ([[https://github.com/teodorlu/hotload][kildekode på Github]], [[https://clojureverse.org/t/announcing-hotload-code-python-like-its-clojure/4402][annonesering på ClojureVerse]]) lar deg utvikle Python
-fra inne i programmet ditt, heller enn utenifra. Utviklingsflyten likner hvordan
-det er vanlig å utvikle Clojure-kode.
+fra inne i programmet ditt, heller enn utenifra. Utviklingsflyten er inspirert
+av [[https://clojure.org/guides/repl/annex_community_resources][REPL-dreven utvikling i Clojure]].
 
 Hotload handler om responstid. Jeg vil få ned innsatsen det tar å kjøre ny kode
 til ett tastetrykk (ctrl+s) og så live-oppdaterte nye resultater i terminalen
