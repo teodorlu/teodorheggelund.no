@@ -13,9 +13,10 @@ Hotload ([[https://github.com/teodorlu/hotload][kildekode på Github]], [[https:
 fra inne i programmet ditt, heller enn utenifra. Utviklingsflyten er inspirert
 av [[https://clojure.org/guides/repl/annex_community_resources][REPL-dreven utvikling i Clojure]].
 
-Hotload handler om responstid. Jeg vil få ned innsatsen det tar å kjøre ny kode
-til ett tastetrykk (ctrl+s) og så live-oppdaterte nye resultater i terminalen
-ved siden av. Hvorfor? Fordi da er alt det andre lettere og mer gøy.
+Hotload handler om responstid. Jeg ønsker å drastisk senke innsatsen som kreves
+for se resultatet av ny kjørt kode. For de små prosjektene jeg har kjørt mot, er
+vi nå på ett tastatrykk (ctrl+s) og noen millisekunder for å laste inn ny kode.
+Hvorfor? Fordi da er alt det andre lettere og mer gøy.
 ** Beregningsmekanikk
 Masteroppgaven min handlet om hvordan materialer oppfører seg på liten skala,
 titulert "Finite element implementation of lower-order strain gradient
