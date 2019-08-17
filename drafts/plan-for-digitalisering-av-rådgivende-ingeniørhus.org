@@ -1,0 +1,133 @@
+* Plan for digitalisering av rådgivende ingeniørhus mot bygg og anlegg
+** Introduksjon
+Hvorfor? Motivasjon.
+
+Min historie. Med bakgrunn innen ingeniørfag og informasjonsteknologi, var det
+åpenbart for meg at vi burde bruke IT inn mot ingeniørfag. Informasjonsteknologi
+er et verktøy. Og det er et fleksibelt verktøy. Der programvareprodukter med
+brukergrensesnitt må begrense ned til en bruk, er programvare vi bruker selv
+ubegrenset -- fordi vi alltid kan ta i bruk det vi har gjort.
+
+Med programvareprodukter må vi gjøre ting på måten som programvaren sier. Vi må
+gjøre det som er tenkt at vi skal gjøre fra leverandøren sin side. I noen
+tilfeller produktbruken snever. I andre tilfeller er produktene svært gode.
+
+Hvorfor er dette viktig? Er vi ikke alltid begrenset? Hvorfor er noe forskjellig
+når vi driver med programmering?
+
+Det handler om marginalkostnader, å kunne gjøre ting én gang, og mulighetsrom.
+
+- Marginalkostnader :: blir en betydelig del av prosesser med manuell innsats.
+     Hva når vi må gjøre litt om igjen? Når vi ikke klarer å /løse/ biten av
+     oppgaven (som kan være hvordan vi laster data, hvordan vi produserer nye
+     visualiseringer eller hvordan vi oppdaterer rapporten med nye tall).
+- Når vi gjør ting én gang, :: så har vi /løst/ problemet. Vi må ikke lære oss
+     en lang sekvens av ting vi må gjennom. Å gjøre ting én gang senker
+     marginalkostnader. Hvis vi lager layouten vår for visualiseringene våre /en
+     gang/, kan vi bare sende inn ny data og ha nye plots. Hvis vi løser
+     datalasting /en gang/ må vi forstå dataen vi får inn én gang når vi lager
+     prosessen for dataimport. Neste gang refererer vi kun til ny data. Når vi
+     lager rapporten /en gang/, legger vi ikke inn direkte tall som vi bruker,
+     men en referanse til hvor tallene skal hentes, og kjører så oppdatering med
+     ny data er en smal sak.
+- Mulighetsrommet vi får når vi programmerer :: dekker hva vi kan gjøre når vi
+     programmerer som ikke er plausibelt før. Når vi ikke programmerer kan vi
+     kjøre et par-tre analyser for å sjekke utfallet av en parameterendring. Når
+     vi programmerer er det liten forskjell på et par-tre og tre hundre. Vi
+     setter i gang datamaskinen, og den er ferdig når vi kommer tilbake. Tar det
+     tid å kjøre analysene, er det i alle fall ikke vi mennesker som er den
+     begrensende faktoren.
+
+Når dette kommer til å skje er et spørsmål om tid. Grunnen til at vi er der vi
+er i dag er kompetanse på programmering, grad av programmeringsvennlighet i
+eksisterende verktøy og mulighet til modellering av data.
+
+Min vurdering er at industrien besitter kompetanse på programmering hos
+enkeltpersoner som er langt framme. Programmeringsvennlighet i eksisterende
+verktøy er på full fart frem, og det har aldri vært lettere å komme i gang med
+Python. Med tilgang på dagens datakraft og webteknologi, har mulighetene aldri
+vært større.
+
+Jeg vurderer progresjon mot digitalisering på to akser: programmering og
+datamodellering. I programmering legger jeg enkeltpersoners evne til å lage
+programvare. Med modellering refererer jeg til kvaliteten på dataen som ligger
+lagret.
+
+Evne til programmering kan vi beskrive ved en ferdighetsstige:
+
+1. Kjennskap til fordeler og ulemper med programmering heller enn Excel-bruk
+2. Evne til scripting for personlig bruk
+3. Evne til programmering som andre kan ta til bruk i programmering og scripting
+4. Evne til utvikling av systemer som andre kan ta i bruk uten
+   programmeringskompetanse
+
+Evne til datamodellering kan beskrives tilsvarende:
+
+1. Kjennskap til fordeler og ulemper ved å modellere data i dataformater heller
+   enn Excel-tabeller
+2. Evne til å bruke semantiske filformater som JSON, XML eller HDF til å lette
+   arbeid med lasting av data, lagring av data og inspeksjon av data
+3. Evne til å jobbe mot /én/ database heller enn flere filer, for å laste data
+   og lagre data
+4. Evne til design og videreutvikling av databaseskjema, samt operasjonell drift
+   av en databasecluster
+
+Prosjektdatabase.no forutsetter team som har nådd nivå 2. på evne til
+programmering. Gjennom et utviklingsprosjekt når vi nivå 3. på evne til
+programmering, og nivå 3 på evne til datamodellering. Prosjektdatabase.no tilbys
+som en kontinuerlig tjeneste som tar hånd om nivå 4. på evne til
+datamodellering.
+
+Men hvordan gjør vi det? Svaret er som alltid, vi bygger en sten av gangen.
+** Steg 1: bygge programmeringskompetanse hos aksjonsgruppe
+Bedriften må ha tre personer som er på nivå 2 på evne til programmering, der de
+besitter evne til å skrive Python-script for egen bruk. Vi starter på enkel
+programmering fordi da kan vi få nytteverdi tidlig -- før vi begynner å snakke
+om databaser, er vi i stand til å hente nytteverdi i små prosjekter.
+
+Fornuftige oppgaver man kan fokusere på:
+
+- Kunne behandle tabeller som kommer fra Excel med programmering. Når vi
+  allerede har data i Excel, kan vi bruke den til noe nyttig. Når vi er ferdig,
+  går vi bare tilbake.
+- Produsere visualiseringer. Programmering er svært fleksibelt til produksjon av
+  illustrasjoner. Et eksempel på god datavisualisering basert på programmering
+  kan vi finne hos [[https://www.nytimes.com/interactive/2018/us/elections/house-race-ratings.html?action=click&module=RelatedLinks&pgtype=Article][New York Times]].
+** Steg 2: observasjon: hvordan utveksler vi data i team?
+For mange av de største prosjektene som skal bygge norsk infrastruktur er
+utvekslingsformen som brukes filer på fellesmappe. Hvordan jobber vi da med
+data? Kanskje ber vi en kollega sjekke Excel-arket som vi har oppdatert med
+siste data. Og vi må passe på å lage nye versjoner, så vi vet hva vi har delt.
+Samme strategi kan vi bruke med filer. Lagre nye filer, og si ifra.
+
+Filer på fellesmappe til utveksling av data er i praksis en liten database. Den
+er bare svært manuell. Vi kan kun finne data dersom vi kjenner rett filnavn. Og
+dersom vi vil ha tilgang på mer data, må vi finne alle filene. /Vi huske på hvor
+vi finner all informasjonen/.
+
+Filer på fellesmappe som utvekslingsmodell har imidlertid utfordringer:
+
+- Hvordan holder vi styr på nye versjoner, oppdateringer, og informasjon om hva
+  som er gjeldende versjon?
+- Hvordan holder vi orden på koblinger mellom forskjellig data?
+- Kan forskjellige personer modellere data på samme vis, eller må alle oversette
+  data til "sitt format"?
+
+Disse utfordringene drev fram utvikling på databaser og databasesystemer. En
+database er en samling data som kan utvides når vi får inn ny data. Et
+databasesystem gjør databasen tilgjengelig, så vi alltid kan spørre den om
+informasjon.
+** Steg 3: gi aksjonsgruppen trening i samhandling gjennom database
+Her kommer Prosjektdatabase.no inn. Det er ikke lett å vite hvordan man bør
+starte med databasebruk. Flere valg må tas, og utfordringer møtes:
+
+- Hvilken database skal vi bruke?
+- Hvordan kjører vi den? Har vi kontroll på backup? Hva om maksinen krasjer, med
+  alt vi har av verdifull data?
+- Hvordan modellerer vi versjonering i databasen?
+- Hvordan oppdaterer vi data?
+- Kan vi lagre resultater i databasen?
+
+Hvordan bør du ta stilling til disse utfordringene? Med prosjektdatabase.no
+slipper du ta stilling til operasjonell drift, og
+** Steg 4: 
