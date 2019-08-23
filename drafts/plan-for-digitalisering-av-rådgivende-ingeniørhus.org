@@ -1,4 +1,9 @@
-* Plan for digitalisering av rådgivende ingeniørhus mot bygg og anlegg
+---
+title: "Plan for digitalisering av rådgivende ingeniørhus som jobber med bygg og anlegg"
+author: Teodor Heggelund
+date: 2019-08-23
+---
+
 ** Introduksjon
 Hvorfor? Motivasjon.
 
@@ -130,4 +135,24 @@ starte med databasebruk. Flere valg må tas, og utfordringer møtes:
 
 Hvordan bør du ta stilling til disse utfordringene? Med prosjektdatabase.no
 slipper du ta stilling til operasjonell drift, og
-** Steg 4: 
+** Steg 4: aksjonsgruppen tar i bruk eget verktøy i nytt prosjektNår aksjonsgruppen i steg 3 er i stand til å gjøre samhandling mellom personer med databasen, er grunnlaget for samhandling mellom prosjekter lagt.
+Databasen trenger å være designet til å være fleksibel. Det vil da være mulig å
+plugge inn funksjonalitet i en database. I et prosjekt utvikles det en
+sofistikert måte for å tilgjengeligjøre resultater. Denne er det ønskelig å ta i
+bruk i neste prosjekt. Med databasen som en plattform å bygge videre på, trenger
+vi kun å koble oss på en ny database, og legge dataen rett sted.
+
+Databasen gir en standardisert mekanisme for å hente ut data, og å legge inn
+data. Denne er det mulig å bruke fra forskjellige programmerinsspråk, eller
+manuelt via et spesiallaget verktøy som dbeaver -- som lar oss se på innholdet
+ved å navigere visuelt, eller Prosjektdatabase.no, som lar oss navigere i og
+visualisere resultater.
+
+Ved å standardisere data inn og/eller data ut, har vi et verktøy vi kan overføre
+til neste fase. Og når vi har én komponent som snakker med databasen, er det
+strømlinjeformet å lage et nytt verktøy som videre behander data vi allerede har
+tilgang til.
+
+Oppsummert: gjennom å standardisere data inn og/eller data ut med en database,
+gjør vi det mulig å koble verktøy på nye prosjekter. Vi kan da ta med oss
+verktøyene videre, og bruke de igjen i neste prosjekt.
