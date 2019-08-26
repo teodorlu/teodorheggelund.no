@@ -1,5 +1,5 @@
 ---
-title: "Lanserering: Prosjektdatabase.no"
+title: "Intro til prosjektdatabasen #1: Hvordan vi kom hit"
 author: Teodor Heggelund
 date: 2019-08-26
 ---
@@ -65,5 +65,8 @@ tre grunner:
 
 Denne utfordringen ønsker jeg å adressere. Jeg lanserer derfor
 [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
+
+/Denne artikkelen er nr 1 i artikkelserien "Intro til prosjektdatabasen". Neste
+artikkel kommer snart./
 
 Teodor

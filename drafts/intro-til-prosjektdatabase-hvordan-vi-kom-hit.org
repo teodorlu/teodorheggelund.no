@@ -1,5 +1,5 @@
 ---
-title: "Intro til Prosjektdatabase.no: hvordan vi kom hit"
+title: "Intro til prosjektdatabasen #1: Hvordan vi kom hit"
 author: Teodor Heggelund
 date: 2019-08-26
 ---
