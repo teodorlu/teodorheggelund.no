@@ -1,7 +1,7 @@
 ---
 title: "Lanserering: Prosjektdatabase.no"
 author: Teodor Heggelund
-date: 2018-08-25
+date: 2019-08-26
 ---
 
 Jeg er svært interessert i grensesjiktet mellom ingeniørfag og
@@ -22,14 +22,14 @@ den kan få inn og ut den dataen de trenger.
 Digital transformasjon trenger imidlertid mer enn programmering. Programmering
 er aktivt, programmering /gjør/ noe. Og det programmering /gjør/ er å
 transformere og flytte data. Så hvor skal dataen være mellom transformasjonene
-vi gjør? Det adresserer vi i datamodellering. Datamodellering handler om å bygge
-gode datamodeller. Når vi modellerer data, beslutter vi hvilken data som hører
-sammen (hvilke data som utgjør en /entitet/) og hvordan vi skal finne igjen
-dataen vår (hvordan indeksen vår ser ut). Telefonkatalogen er et kjent eksempel.
-Entitenene våre er personer (med addresse, navn og telefonnummer) og bedrifter
-(med navn, addresse, telefonnummer, forretningsområde og kanskje åpningstider).
-Indeks for personer er ofte etternavn, mens indeks for bedrift kan være navn
-eller forretningsområde.
+vi gjør? Det adresserer vi med datamodellering. Datamodellering handler om å
+bygge gode datamodeller. Når vi modellerer data, beslutter vi hvilken data som
+hører sammen (hvilke data som utgjør en /entitet/) og hvordan vi skal finne
+igjen dataen vår (hvordan indeksen vår ser ut). Telefonkatalogen er et kjent
+eksempel. Entitenene våre er personer (med addresse, navn og telefonnummer) og
+bedrifter (med navn, addresse, telefonnummer, forretningsområde og kanskje
+åpningstider). Indeks for personer er ofte etternavn, mens indeks for bedrift
+kan være navn eller forretningsområde.
 
 I prosessen med digitalisering av ingeniørprosjekter har digitalisering ligget
 etter programmering. Og det er helt naturlig. Programmering kan tas i bruk for å
