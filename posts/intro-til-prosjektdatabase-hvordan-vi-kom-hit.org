@@ -63,8 +63,8 @@ tre grunner:
 3. Kompetanse og organisasjonsstruktur for drift av en database. Hvordan unngår
    man datatap? Hvordan skal man kjøre databasen? Hvem er ansvarlig for backup?
 
-Denne utfordringen ønsker jeg å adressere. Jeg lanserer derfor
-[[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
+Behandling av data i ingeniørbransjen er en utfordring jeg ønsker å adressere.
+Jeg lanserer derfor [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
 
 /Denne artikkelen er nr 1 i artikkelserien "Intro til prosjektdatabasen". Neste
 artikkel kommer snart./
