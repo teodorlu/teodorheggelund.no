@@ -2,6 +2,12 @@
 title: Om meg
 ---
 Hei!
+
+Jeg heter Teodor, og vedlikeholder denne nettsiden for å dele informasjon, og
+lære noe av prosessen.
+
+Jeg er en teknolog som gjerne jobber med programvare og ingeniørfag, med
+motivasjon for å lære, lære bort, og diskutere det som er viktig.
 ** Kontakt
 Ta kontakt på [[mailto:teodor@teodorheggelund.com][E-post]].
 ** Denne siden
