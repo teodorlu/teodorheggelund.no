@@ -29,28 +29,44 @@
 
                 <hr />
 
-                Got a comment? Use the arrow in the upper-right corner to make a
-                general note. Or mark text to make an annotation to just that text.
+                Har du en kommentar? Bare
 
-                More information on the commentary system is available at <a href="/posts/commentary-with-hypothesis.html">Commentary with Hypothesis</a>.
+                <button id="load-comment-system">last inn kommentarsystemet</button>,
+
+                og bruk pilen øverst til høyre til å lage en generell kommentar.
+                For å kommentere på en spesifikk frase, marker teksten, og trykk "Annotate".
+
+                Mer informasjon om kommentarsystemet er tilgjengelig på engelsk:
+                <a href="https://www.teodorheggelund.com/posts/commentary-with-hypothesis.html">Commentary with Hypothesis</a>.
             </article>
         </div>
 
         <div id="footer">
             <p>
-                This site is made with
+                Denne siden er laget med det fantastiske Haskell-biblioteket
                 <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-                Content is licenced with <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative
-                    Commons Attribution-NonCommercial 4.0</a> where nothing else is specified.
-                That means you can redistribute content for non-commercial usage, with citation.
+                Innhold er lisensiert med <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                    Commons Attribution-NonCommercial 4.0</a> der ikke annet er spesifisert.
+                Det betyr at du kan videresende innholdet for ikkekomersiell bruk med kildehenvisning.
             </p>
         </div>
 
-        <!-- Load Hypothesis -->
         <script type="application/json" class="js-hypothesis-config">
-         {"showHighlights": false}
+            {"showHighlights": false}
         </script>
-        <script src="https://hypothes.is/embed.js" async></script>
+        <div id="hypothesis-placeholder"></div>
+        <script type="text/javascript" async>
+        placeholder = document.querySelector("#hypothesis-placeholder");
+        activation = document.querySelector("#load-comment-system");
 
+        s = document.createElement("script");
+        s.setAttribute("async", "async");
+        s.setAttribute("src", "https://hypothes.is/embed.js");
+
+        activation.onclick = function () {
+            placeholder.appendChild(s);
+        };
+
+        </script>
     </body>
 </html>
