@@ -48,9 +48,10 @@ laget for å være fornuftige å bruke. Du kan spørre om hvilken data du vil ha
 og senere optimalisere for fart. 70-tallet ga oss også et språk for å spørre om
 data fra databaser: [[https://en.wikipedia.org/wiki/SQL][SQL]]. SQL står for Structured Query Language, og lar oss
 hente ut og legge inn data i databasen. Ett av SQL-databasesystemene som ble
-utviklet på 70-talet er INGRES, utviklet blant andre av [[https://en.wikipedia.org/wiki/Michael_Stonebraker][Michael Stonebraker]], som
-på 90-tallet gikk videre til å utvikle PostgreSQL, tidligere kalt Postgres, fra
-post-INGRES.
+utviklet på 70-tallet er INGRES, som ble utviklet blant andre av [[https://en.wikipedia.org/wiki/Michael_Stonebraker][Michael
+Stonebraker]], som på 90-tallet gikk videre til å utvikle PostgreSQL, tidligere
+kalt Postgres, fra post-INGRES. PostgreSQL er i et bunnsolid databasevalg for
+helt enkle anvendelser, og skalerer opp til massive datamenger.
 
 Så ingeniørprosjekter har startet digitalisering gjennom programmering og
 automatisering, men databaser er ikke i bruk. Hvorfor? Slik jeg ser det, er det
