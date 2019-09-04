@@ -18,27 +18,31 @@ plattform.
 Lenger ned kan du velge å drifte din egen Linux-server, installere en database
 på den, gjøre sikkerhetsoppdateringer, konfigurere nettverk. Helt nede har du
 ingen begrensninger på ytelse eller fleksibilitet, men du tar på deg selv mye
-ansvar. Feil konfigurering av nettverk kan gi en tidkrevende øvelse å fikse,
-nedetid for brukere og potensielt sikkerhetsproblemer.
+ansvar. Konfigurasjon kan være en tidkrevende øvelse, og feil kan gi nedetid for
+brukere, sikkerhetsproblemer, og potensielt tap av data.
 
 Så svaret på "hvordan bør jeg bruke databasen" er subjektivt -- det er en
-avveining. For langt ned, og du rekker ikke gjøre jobben du trenger. For langt
-opp, og du risikerer å få hender og føtter bundet, uten å kunne spørre om
-informasjon du trenger.
+avveining. Går du etter maksimal fleksibilitet, får du fort ikke tid til noe
+annet. Er beleilighet din øverste prioritering, kan du ende opp med for mange
+verktøy du egentlig ikke trenger, som heller ikke snakker sammen.
 
 Gjennom [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]], vedder jeg på følgende:
 
 1. Prosjektet bør ha direktetilgang til databasen. Prosjektmedarbeidere bør
    kunne kjøre SQL direkte, og koble til administrasjonsverktøy som [[https://dbeaver.io/][DBeaver]].
    Prosjektmedarbeidere bør ha tilgang direkte til databaseskjemaet.
-2. Prosjektet bør ikke ha en intern rolle ansvarlig for opprettelse av database,
-   tilgangskontroll, backup og dataeksport.
+2. Prosjektet har ikke behov for en dedikert fulltidsressurs ansvarlig for
+   opprettelse av database, tilgangskontroll, backup og dataeksport.
 3. Grunnstrukturen for databasen bruk i prosjektet bør gis rom til å utvikles
    mellom prosjekter
 
 Jeg tror på et symbiotisk forhold mellom prosjektene og en tredjeparts
-leverandør av database. Jeg tror vi da kan treffe et nært optimalt grensesnitt.
-Og jeg tror det kan være det første steget mot reell digitalisering av
-ingeniørprosjekter.
+leverandør av database. Jeg tror på gjentatt kalibrering av en
+palattformløsning, der det eksplisitt vektes standardisering mot
+spesialtilpasning. Og jeg tror aktiv bruk av databaser vil muliggjøre reell
+digitalisering av ingeniørprosjekter.
+
+/Denne artikkelen er nr 2 i artikkelserien "Intro til prosjektdatabasen".
+[[file:../posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][Artikkel #1]] er allerede publisert. Neste artikkel kommer snart./
 
 Teodor
