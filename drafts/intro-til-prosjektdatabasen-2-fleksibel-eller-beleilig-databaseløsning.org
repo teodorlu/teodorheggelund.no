@@ -29,7 +29,7 @@ informasjon du trenger.
 Gjennom [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]], vedder jeg på følgende:
 
 1. Prosjektet bør ha direktetilgang til databasen. Prosjektmedarbeidere bør
-   kunne kjøre SQL direkte, og koble til administrasjonsverktøy som DataGrip.
+   kunne kjøre SQL direkte, og koble til administrasjonsverktøy som [[https://dbeaver.io/][DBeaver]].
    Prosjektmedarbeidere bør ha tilgang direkte til databaseskjemaet.
 2. Prosjektet bør ikke ha en intern rolle ansvarlig for opprettelse av database,
    tilgangskontroll, backup og dataeksport.
