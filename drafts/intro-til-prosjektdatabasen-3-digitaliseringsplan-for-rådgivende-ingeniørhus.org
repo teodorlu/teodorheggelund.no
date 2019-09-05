@@ -1,5 +1,5 @@
 ---
-title: "Plan for digitalisering av rådgivende ingeniørhus som jobber med bygg og anlegg"
+title: "Intro til prosjektdatabasen #3: Digitaliseringsplan for rådgivende ingeniørhus"
 author: Teodor Heggelund
 date: 2019-08-23
 ---
