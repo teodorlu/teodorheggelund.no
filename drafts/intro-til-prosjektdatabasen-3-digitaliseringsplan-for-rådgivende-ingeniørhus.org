@@ -1,7 +1,7 @@
 ---
 title: "Intro til prosjektdatabasen #3: Digitaliseringsplan for rådgivende ingeniørhus"
 author: Teodor Heggelund
-date: 2019-08-23
+date: så snart den er ferdig
 ---
 
 ** Introduksjon
@@ -24,11 +24,11 @@ når vi driver med programmering?
 
 Det handler om marginalkostnader, å løse samme oppgave én gang, og mulighetsrom.
 
-- Marginalkostnader :: blir en betydelig del av prosesser med manuell innsats.
+- *Marginalkostnader* blir en betydelig del av prosesser med manuell innsats.
      Hva når vi må gjøre litt om igjen? Når vi ikke klarer å /løse/ biten av
      oppgaven (som kan være hvordan vi laster data, hvordan vi produserer nye
      visualiseringer eller hvordan vi oppdaterer rapporten med nye tall).
-- Når løser samme oppgave én gang, :: så har vi /løst/ problemet. Vi må ikke
+- *Når løser samme oppgave én gang* så har vi /løst/ problemet. Vi må ikke
      lære oss en lang sekvens av ting vi må gjennom. Å gjøre ting én gang senker
      marginalkostnader. Hvis vi lager layouten vår for visualiseringene våre /en
      gang/, kan vi bare sende inn ny data og ha nye plots. Hvis vi løser
@@ -37,7 +37,7 @@ Det handler om marginalkostnader, å løse samme oppgave én gang, og mulighetsr
      lager rapporten /en gang/, legger vi ikke inn direkte tall som vi bruker,
      men en referanse til hvor tallene skal hentes, og kjører så oppdatering med
      ny data er en smal sak.
-- Mulighetsrommet vi får når vi programmerer :: dekker hva vi kan gjøre når vi
+- *Mulighetsrommet vi får når vi programmerer* dekker hva vi kan gjøre når vi
      programmerer som ikke er plausibelt før. Når vi ikke programmerer kan vi
      kjøre et par-tre analyser for å sjekke utfallet av en parameterendring. Når
      vi programmerer er det liten forskjell på et par-tre og tre hundre. Vi
