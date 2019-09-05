@@ -1,0 +1,71 @@
+---
+title: "Intro til prosjektdatabasen #XX: Digitalisering = automatisering * modellering"
+author: Teodor Heggelund
+date: 2019-08-23
+---
+
+I digitalisering går automatisering og modellering hånd i hånd. Med
+automatisering mener vi at prosesser skal bygges opp én gang, så kan de siden
+kjøres. Med modellering mener vi at relevant informasjon skal være bygget opp
+som en informasjonsmodell, som kan utforskes.
+
+Automatisering uten modellering gir et black-box-system -- en lang koblet system
+kjøres, med for mye magi. Hva som skjer underveis er vanskelig å få informasjon
+om. Vi mister oversikt og sporbarhet. Automatisering uten modellering finner vi
+ofte i prosjektorganisasjoner, der hva som skal gjøres ofte endrer seg, og det
+ikke er mulig å standardisere.
+
+Modellering uten automatisering gir et tunggrodd byråkrati med lange prosesser.
+Innføring av endringsmeldinger for alle endringer. For å føre reiseregning, må
+du gå gjennom disse femten stegene. For å få saken gjennom det offentlige
+organet, må tre komitéer komme med innspill, og saken ut på høring for løse
+innspill og etter at detaljert innføringsplan er klar. Modellering uten
+automatisering finner vi ofte i organisasjoner som må levere pålitelighet for
+samme prosess, gang på gang på gang.
+
+Automatisering /med/ modellering muliggjør innsikt mellom stegene. Vi kan søke
+i informasjonen vi har, og se hvorfor vi fikk resultatet vi gjorde. Vi kan spore
+et objekt gjennom prosessen.
+
+Modellering med automatisering gir flyt. Prosessene er ikke lenger begrensende,
+men vi har oversikt gjennom flyten. Vi /ønsker/ å bruke prosessen, fordi den lar
+oss /både/ jobbe mer effektivt og mer pålitelig.
+
+#+begin_center
+~
+#+end_center
+
+Innen IT har vi mer spesifikke begreper om automatisering og modellering: vi
+snakker heller om programmering og databaser. Med programmering kan vi gjøre
+jobben med en prosess én gang, og deretter kjøre prosessen. I databaser har vi
+et praktisk verktøy for å modellere informasjonen vi trenger, og lagre
+informasjonen vi har. Deretter har vi fleksibel tilgang til all modellert data.
+
+Rådgivere for bygg- og anleggsbransjen har lenge vært klar over fordelene med
+parametrisk modellering. Med parametrisk modellering lettes endring; med en
+parametrisk modell har vi bygget opp de parameterene vi ønsker å styre. Så når
+vi ønsker å endre parameterene våre, får vi resten på kjøpet.
+
+Datamodellering og databaser har imidlertid ikke fått den samme oppmerksomheten.
+Hvorfor? Vi har jo allerede informasjonsmodeller. Analysemodellen er én. Den
+jobber vi med. Og vi har mange gode verktøy som løser mye her. BIM-modellen er
+en annen. Her får vi se sluttresultatet grafisk.
+
+Så hvorfor dedikerte databaser? Hvorfor ikke bare bruke analysemodellen eller
+BIM-modellen?
+
+Spørsmålet er godt. Vi kan komme langt med analysemodellen. Mange leverandører
+gir en svært fornuftig måte å modellere konstruksjonen vår, og nyttig
+integrasjon. BIM-modellen lar oss kommunisere resultatet med andre på en
+effektiv måte.
+
+Vi kommer imidlertid til å støte på utfordringer når vi skal dele og oppdatere
+informasjon. Analysemodellen er laget for bruk med én bruker. BIM-modellen er
+spesialisert mot det grafiske. Databaser, derimot, er laget for delt
+informasjonsmodellering til muliggjøring av automatisering av omkringliggende
+prosesser, og databaser har vært under tung utvikling siden 60-tallet. Svaret er
+ganske enkelt at det har blitt lagt ned så mye ressurser ned i databaser, at
+kvaliteten er ovelegen.
+
+Hva venter du på? Bruk [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]] til å muliggjøre digitalisering i
+ditt ingeniørteam i dag.
