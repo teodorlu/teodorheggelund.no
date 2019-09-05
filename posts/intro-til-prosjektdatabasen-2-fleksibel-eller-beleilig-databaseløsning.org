@@ -1,0 +1,48 @@
+---
+title: "Intro til prosjektdatabasen #2: fleksibel eller beleilig databaseløsning"
+author: Teodor Heggelund
+date: 2019-09-05
+---
+
+Når du skal ta i bruk en database, må du bestemme deg for hvor mye automatikk du
+ønsker i prosessen. Trenger du full kontroll? Eller trenger du en lett tjeneste?
+Hva er det egentlig du har behov for? Valget ditt handler om hvor dypt ned i
+teknologien du går.
+
+Helt øverst kan du kjøpe en ferdig tjeneste. Firebase er et eksempel på en
+databasetjeneste. Denne lar deg komme i gang fort, og integrerer med andre
+tjenester som håndterer autentisering og grensesnitt mot webapplikasjoner. Du
+har mindre fleksibilitet, mindre fart, og det er vanskeligere å lage sin egen
+plattform.
+
+Lenger ned kan du velge å drifte din egen Linux-server, installere en database
+på den, gjøre sikkerhetsoppdateringer, konfigurere nettverk. Helt nede har du
+ingen begrensninger på ytelse eller fleksibilitet, men du tar på deg selv mye
+ansvar. Konfigurasjon kan være en tidkrevende øvelse, og feil kan gi nedetid for
+brukere, sikkerhetsproblemer, og potensielt tap av data.
+
+Så svaret på "hvordan bør jeg bruke databasen" er subjektivt -- det er en
+avveining. Går du etter maksimal fleksibilitet, får du fort ikke tid til noe
+annet. Er beleilighet din øverste prioritering, kan du ende opp med for mange
+verktøy du egentlig ikke trenger, som heller ikke snakker sammen.
+
+Gjennom [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]], vedder jeg på følgende:
+
+1. Prosjektet bør ha direktetilgang til databasen. Prosjektmedarbeidere bør
+   kunne kjøre SQL direkte, og koble til administrasjonsverktøy som [[https://dbeaver.io/][DBeaver]].
+   Prosjektmedarbeidere bør ha tilgang direkte til databaseskjemaet.
+2. Prosjektet har ikke behov for en dedikert fulltidsressurs ansvarlig for
+   opprettelse av database, tilgangskontroll, backup og dataeksport.
+3. Grunnstrukturen for databasen bruk i prosjektet bør gis rom til å utvikles
+   mellom prosjekter
+
+Jeg tror på et symbiotisk forhold mellom prosjektene og en tredjeparts
+leverandør av database. Jeg tror på gjentatt kalibrering av en
+palattformløsning, der det eksplisitt vektes standardisering mot
+spesialtilpasning. Og jeg tror aktiv bruk av databaser vil muliggjøre reell
+digitalisering av ingeniørprosjekter.
+
+/Denne artikkelen er nr 2 i artikkelserien "Intro til prosjektdatabasen".
+[[file:../posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][Artikkel #1]] er allerede publisert. Neste artikkel kommer snart./
+
+Teodor
