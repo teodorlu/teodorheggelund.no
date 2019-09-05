@@ -5,9 +5,11 @@ date: 2019-08-23
 ---
 
 ** Introduksjon
-Hvorfor? Motivasjon.
+# Hvorfor? Motivasjon.
 
-Min historie. Med bakgrunn innen ingeniørfag og informasjonsteknologi, var det
+# Min historie.
+
+Med bakgrunn innen ingeniørfag og informasjonsteknologi, var det
 åpenbart for meg at vi burde bruke IT inn mot ingeniørfag. Informasjonsteknologi
 er et verktøy. Og det er et fleksibelt verktøy. Der programvareprodukter med
 brukergrensesnitt må begrense ned til en bruk, er programvare vi bruker selv
@@ -20,14 +22,14 @@ tilfeller produktbruken snever. I andre tilfeller er produktene svært gode.
 Hvorfor er dette viktig? Er vi ikke alltid begrenset? Hvorfor er noe forskjellig
 når vi driver med programmering?
 
-Det handler om marginalkostnader, å kunne gjøre ting én gang, og mulighetsrom.
+Det handler om marginalkostnader, å løse samme oppgave én gang, og mulighetsrom.
 
 - Marginalkostnader :: blir en betydelig del av prosesser med manuell innsats.
      Hva når vi må gjøre litt om igjen? Når vi ikke klarer å /løse/ biten av
      oppgaven (som kan være hvordan vi laster data, hvordan vi produserer nye
      visualiseringer eller hvordan vi oppdaterer rapporten med nye tall).
-- Når vi gjør ting én gang, :: så har vi /løst/ problemet. Vi må ikke lære oss
-     en lang sekvens av ting vi må gjennom. Å gjøre ting én gang senker
+- Når løser samme oppgave én gang, :: så har vi /løst/ problemet. Vi må ikke
+     lære oss en lang sekvens av ting vi må gjennom. Å gjøre ting én gang senker
      marginalkostnader. Hvis vi lager layouten vår for visualiseringene våre /en
      gang/, kan vi bare sende inn ny data og ha nye plots. Hvis vi løser
      datalasting /en gang/ må vi forstå dataen vi får inn én gang når vi lager
