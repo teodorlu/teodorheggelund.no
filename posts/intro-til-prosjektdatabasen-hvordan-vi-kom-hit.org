@@ -68,6 +68,7 @@ Behandling av data i ingeniørbransjen er en utfordring jeg ønsker å adressere
 Jeg lanserer derfor [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
 
 /Denne artikkelen er nr 1 i artikkelserien "Intro til prosjektdatabasen". Neste
-artikkel kommer snart./
+artikkel er [[file:intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html]["Intro til prosjektdatabasen #2: fleksibel eller beleilig
+databaseløsning"]]./
 
 Teodor
