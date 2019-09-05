@@ -77,7 +77,7 @@ Evne til datamodellering kan beskrives tilsvarende:
 3. Evne til å jobbe mot /én/ database heller enn flere filer, for å laste data
    og lagre data
 4. Evne til design og videreutvikling av databaseskjema, samt operasjonell drift
-   av en databasecluster
+   av et databasesystem.
 
 Prosjektdatabase.no forutsetter team som har nådd nivå 2. på evne til
 programmering. Gjennom et utviklingsprosjekt når vi nivå 3. på evne til
@@ -137,7 +137,10 @@ starte med databasebruk. Flere valg må tas, og utfordringer møtes:
 
 Hvordan bør du ta stilling til disse utfordringene? Med prosjektdatabase.no
 slipper du ta stilling til operasjonell drift, og
-** Steg 4: aksjonsgruppen tar i bruk eget verktøy i nytt prosjektNår aksjonsgruppen i steg 3 er i stand til å gjøre samhandling mellom personer med databasen, er grunnlaget for samhandling mellom prosjekter lagt.
+** Steg 4: aksjonsgruppen tar i bruk eget verktøy i nytt prosjekt
+Når aksjonsgruppen i steg 3 er i stand til å gjøre samhandling mellom personer
+med databasen, er grunnlaget for samhandling mellom prosjekter lagt.
+
 Databasen trenger å være designet til å være fleksibel. Det vil da være mulig å
 plugge inn funksjonalitet i en database. I et prosjekt utvikles det en
 sofistikert måte for å tilgjengeligjøre resultater. Denne er det ønskelig å ta i
@@ -160,3 +163,12 @@ gjør vi det mulig å koble verktøy på nye prosjekter. Vi kan da ta med oss
 verktøyene videre, og bruke de igjen i neste prosjekt.
 ** Veien videre
 ???
+
+Må tenkes litt, her.
+
+- Skarpere verktøy generelt for sivilingeniører
+- Mulighet til å sammenlikne konsepter på effektivt vis, uten å låses til /den
+  nåværende modellen/ i analyseprogrammet
+- Personer i prosjektet kan dele ferdighet og jobb uten å /selv/ måtte gjøre
+  jobben, og bli en flaskehals
+- Mulighet til å bygge kunnskap og verktøy som kan tas med mellom prosjekter
