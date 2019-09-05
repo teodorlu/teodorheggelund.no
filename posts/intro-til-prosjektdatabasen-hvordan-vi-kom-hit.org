@@ -4,6 +4,8 @@ author: Teodor Heggelund
 date: 2019-08-26
 ---
 
+/Dette er artikkel #1 i artikkelserien "Intro til prosjektdatabasen"./
+
 Jeg er svært interessert i grensesjiktet mellom ingeniørfag og
 informasjonsteknologi. For meg er det en herlig match mellom utfordringer og
 verktøy: ingeniørfag gir noen av de viktigste og mest spennende utfordringene
@@ -67,7 +69,7 @@ tre grunner:
 Behandling av data i ingeniørbransjen er en utfordring jeg ønsker å adressere.
 Jeg lanserer derfor [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
 
-/Denne artikkelen er nr 1 i artikkelserien "Intro til prosjektdatabasen". Les
-videre i [[file:/posts/intro-til-prosjektdatabasen-2-fleksibel-eller-beleilig-databasel%C3%B8sning.html][artikkel 2]]./
+/Du har nå lest artikkel 1 i artikkelserien "Intro til prosjektdatabasen". Les
+videre i [[file:/posts/intro-til-prosjektdatabasen-2-fleksibel-eller-beleilig-databasel%C3%B8sning.html][artikkel #2]]./
 
 Teodor

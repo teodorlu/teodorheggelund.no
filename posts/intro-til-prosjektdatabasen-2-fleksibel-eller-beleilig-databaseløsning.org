@@ -4,6 +4,10 @@ author: Teodor Heggelund
 date: 2019-09-05
 ---
 
+/Dette er artikkel #2 i artikkelserien "Intro til prosjektdatabasen". I [[file:intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][artikkel
+#1]] tok jeg for meg hvorfor databaser bør brukes i ingeniørprosjekter, og
+hvorfor bruken ikke har vært større før nå./
+
 Når du skal ta i bruk en database, må du bestemme deg for hvor mye automatikk du
 ønsker i prosessen. Trenger du full kontroll? Eller trenger du en lett tjeneste?
 Hva er det egentlig du har behov for? Valget ditt handler om hvor dypt ned i
