@@ -67,8 +67,7 @@ tre grunner:
 Behandling av data i ingeniørbransjen er en utfordring jeg ønsker å adressere.
 Jeg lanserer derfor [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]]. Ta en titt!
 
-/Denne artikkelen er nr 1 i artikkelserien "Intro til prosjektdatabasen". Neste
-artikkel er [[file:intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html]["Intro til prosjektdatabasen #2: fleksibel eller beleilig
-databaseløsning"]]./
+/Denne artikkelen er nr 1 i artikkelserien "Intro til prosjektdatabasen". Les
+videre i [[file:/posts/intro-til-prosjektdatabasen-2-fleksibel-eller-beleilig-databasel%C3%B8sning.html][artikkel 2]]./
 
 Teodor
