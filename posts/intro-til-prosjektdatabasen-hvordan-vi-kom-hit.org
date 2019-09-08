@@ -6,9 +6,9 @@ date: 2019-08-26
 
 /Dette er artikkel #1 i artikkelserien "Intro til prosjektdatabasen"./
 
-Behandling av data i ingeniørprosjekter begrenser kvaliteten vi kan lage, og
-farten vi kan levere i. Jeg lanserer Prosjektdatabase.no for å integrere
-digitale verktøy i prosjekter.
+Behandling av data i ingeniørprosjekter begrenser kvaliteten vi levere og farten
+vi kan holde. Jeg lanserer Prosjektdatabase.no for å integrere digitale verktøy
+i prosjekter.
 
 Grensesjiktet mellom ingeniørfag og informasjonsteknologi en herlig match mellom
 utfordringer og verktøy: ingeniørfag gir noen av de viktigste og mest spennende
