@@ -70,11 +70,7 @@ lagret.
 4. Evne til utvikling av systemer som andre kan ta i bruk uten
    programmeringskompetanse
 
-#+BEGIN_EXPORT html
-<p>
-  <em>Evne til datamodellering</em> kan beskrives tilsvarende:
-</p>
-#+END_EXPORT
+/Evne til datamodellering/ kan beskrives tilsvarende:
 
 1. Kjennskap til fordeler og ulemper ved å modellere data i dataformater heller
    enn Excel-tabeller
