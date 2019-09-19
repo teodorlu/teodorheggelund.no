@@ -1,19 +1,22 @@
 ---
-title: "Intro til prosjektdatabasen #3: Digitaliseringsplan for rådgivende ingeniørhus"
+title: "Intro til prosjektdatabasen #3: Digitaliseringsplan for rådgivende ingeniørbedrifter"
 author: Teodor Heggelund
 date: så snart den er ferdig
 ---
+
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
 
 ** Introduksjon
 # Hvorfor? Motivasjon.
 
 # Min historie.
 
-Med bakgrunn innen ingeniørfag og informasjonsteknologi, var det
-åpenbart for meg at vi burde bruke IT inn mot ingeniørfag. Informasjonsteknologi
-er et verktøy. Og det er et fleksibelt verktøy. Der programvareprodukter med
-brukergrensesnitt må begrense ned til en bruk, er programvare vi bruker selv
-ubegrenset -- fordi vi alltid kan ta i bruk det vi har gjort.
+Med bakgrunn innen ingeniørfag og informasjonsteknologi, var det åpenbart for
+meg at vi burde bruke IT inn mot ingeniørfag. Informasjonsteknologi er et
+verktøy. Og det er et fleksibelt verktøy. Der programvareprodukter vi kjøper er
+begrenset til én bruk, er programvare vi bygger selv ubegrenset, fordi vi alltid
+kan ta i bruk det vi allerede har gjort.
 
 Med programvareprodukter må vi gjøre ting på måten som programvaren sier. Vi må
 gjøre det som er tenkt at vi skal gjøre fra leverandøren sin side. I noen
@@ -28,15 +31,14 @@ Det handler om marginalkostnader, å løse samme oppgave én gang, og mulighetsr
      Hva når vi må gjøre litt om igjen? Når vi ikke klarer å /løse/ biten av
      oppgaven (som kan være hvordan vi laster data, hvordan vi produserer nye
      visualiseringer eller hvordan vi oppdaterer rapporten med nye tall).
-- *Når vi løser samme oppgave én gang* så har vi /løst/ problemet. Vi må ikke
-     lære oss en lang sekvens av ting vi må gjennom. Å gjøre ting én gang senker
-     marginalkostnader. Hvis vi lager layouten vår for visualiseringene våre /en
-     gang/, kan vi bare sende inn ny data og ha nye plots. Hvis vi løser
-     datalasting /en gang/ må vi forstå dataen vi får inn én gang når vi lager
-     prosessen for dataimport. Neste gang refererer vi kun til ny data. Når vi
-     lager rapporten /en gang/, legger vi ikke inn direkte tall som vi bruker,
-     men en referanse til hvor tallene skal hentes, og kjører så oppdatering med
-     ny data er en smal sak.
+- *Når vi løser samme oppgave én gang* så frigjør vi tankekraft til å løse
+     vanskeligere oppgaver neste gang. Vi må ikke lære oss en lang sekvens av ting
+     vi må gjennom. Hvis vi lager layouten vår for visualiseringene våre /en gang/,
+     kan vi bare sende inn ny data og ha nye plots. Hvis vi løser datalasting /en gang/
+     må vi forstå dataen vi får inn én gang når vi lager prosessen for dataimport.
+     Neste gang refererer vi kun til ny data. Når vi lager rapporten /en gang/,
+     legger vi ikke inn direkte tall som vi bruker, men en referanse til hvor
+     tallene skal hentes, og kjører så oppdatering med ny data er en smal sak.
 - *Mulighetsrommet vi får når vi programmerer* dekker hva vi kan gjøre når vi
      programmerer som ikke er plausibelt før. Når vi ikke programmerer kan vi
      kjøre et par-tre analyser for å sjekke utfallet av en parameterendring. Når
