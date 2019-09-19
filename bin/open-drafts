@@ -1,24 +1,27 @@
-#!/bin/bash
+#!/usr/bin/env python3
 
-# Open all drafts in firefox.
+import subprocess
+import os
 
-set -e
+def bash(c):
+    return (subprocess
+            .check_output(["bash", "-c"] + c.split())
+            .decode("utf-8"))
 
-cd "$(git rev-parse --show-toplevel)/_site"
-PATHS=$(find ./drafts -type f -name "*.html")
+def cmd(c):
+    return (subprocess
+            .check_output(c.split())
+            .decode("utf-8"))
 
-# python3 -c "print(\"Hello from Python/Bash!\")"
-URLS=$(python3 - << EOF
-matches = """$PATHS""".split()
+def get_project_dir():
+    return cmd("git rev-parse --show-toplevel").strip()
 
 def dev_http_url(filepath):
     return "http://localhost:8000/" + filepath
 
-print(" ".join(dev_http_url(m) for m in matches))
+# cd to the folder from which the files are served
+os.chdir(get_project_dir() + "/_site")
 
-# for m in matches:
-#     print(dev_http_url(m))
-EOF
-    )
+drafts=cmd('find drafts -type f -name *.html').split()
 
-firefox $URLS
+cmd("firefox " + " ".join(dev_http_url(d) for d in drafts))
