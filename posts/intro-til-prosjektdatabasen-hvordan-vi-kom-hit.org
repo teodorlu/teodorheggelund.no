@@ -13,7 +13,7 @@ i prosjekter.
 Grensesjiktet mellom ingeniørfag og informasjonsteknologi en herlig match mellom
 utfordringer og verktøy: ingeniørfag gir noen av de viktigste og mest spennende
 utfordringene samfunnet vårt står overfor, og informasjonsteknologi gir oss
-[[https://www.teodorheggelund.no/posts/niv%25C3%25A5er-av-stabilitet.html][mulighet til å bygge verktøyene vi bruker]]. Ingeniørfag bruker aktivt fysikk og
+[[https://www.teodorheggelund.no/posts/niv%C3%A5er-av-stabilitet.html][mulighet til å bygge verktøyene vi bruker]]. Ingeniørfag bruker aktivt fysikk og
 mekanikk i objektive modeller som behandles med data, og programmering er det
 beste verktøyet vi har for å behandle data.
 
