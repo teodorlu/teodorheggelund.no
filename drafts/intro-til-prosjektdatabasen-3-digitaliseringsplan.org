@@ -62,7 +62,7 @@ datamodellering. I programmering legger jeg enkeltpersoners evne til å lage
 programvare. Med modellering refererer jeg til kvaliteten på dataen som ligger
 lagret.
 
-Evne til programmering kan vi beskrive ved en ferdighetsstige:
+/Evne til programmering/ kan vi beskrive ved en ferdighetsstige:
 
 1. Kjennskap til fordeler og ulemper med programmering heller enn Excel-bruk
 2. Evne til scripting for personlig bruk
@@ -70,7 +70,11 @@ Evne til programmering kan vi beskrive ved en ferdighetsstige:
 4. Evne til utvikling av systemer som andre kan ta i bruk uten
    programmeringskompetanse
 
-Evne til datamodellering kan beskrives tilsvarende:
+#+BEGIN_EXPORT html
+<p>
+  <em>Evne til datamodellering</em> kan beskrives tilsvarende:
+</p>
+#+END_EXPORT
 
 1. Kjennskap til fordeler og ulemper ved å modellere data i dataformater heller
    enn Excel-tabeller
