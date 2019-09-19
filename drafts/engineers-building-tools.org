@@ -25,7 +25,9 @@ informasjonsteknologi har blitt lettere.
 
 Det kan vi nyttiggjøre oss av.
 
----
+#+begin_center
+~
+#+end_center
 
 Hvordan kan barn i dag klare å forstå programmering før de har lært matematikk?
 Programmering lar oss forholde oss til hva programmet /gjør/ uten forstå hvert
@@ -51,7 +53,9 @@ hvert som vi blir eldre klarer vi forholde oss til en forsinket prosess, men det
 krever konsentrasjon og tålmodighet, og vi lærer heller ikke så fort som kunne
 vært potensialet.
 
----
+#+begin_center
+~
+#+end_center
 
 Ferdiglaget programvare løser en spesialoppgave, og bestemmer hvordan den skal
 løses. Først kommer lastkombinasjonene. Så skal man modellere geometrien.
