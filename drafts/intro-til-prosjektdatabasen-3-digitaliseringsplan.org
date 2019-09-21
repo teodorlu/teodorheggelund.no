@@ -7,7 +7,24 @@ date: så snart den er ferdig
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
-** Introduksjon
+** Gjeldende praksis i ingeniørprosjekter fortrenger digitalisering
+Vi ansetter mennesker som går gjennom Norges beste ingeniørutdannelser, med en
+femårig mastergrad. Så binder vi alles hender og føtter for bruk av digitale
+verktøy. Nå skal det leveres, og det skal leveres /for hånd/. Eller, nå som vi
+har blitt "digitale", /for hånd på PC/, med PDF. BIM-modellen begynner å bli et
+unntak, men hva med analysen? Resultater fra analysen? Hvordan deler vi og
+jobber med styrkeanalyser? Nei, det tenker vi ikke så mye på. Det går sikkert
+fint. La oss fortsette med PDF-er.
+
+Så hva er problemet med PDF-er? Det eneste som kan lese en PDF er et mennneske.
+Et menneske med øyne, hjerne og kontekst. Leverer vi en PDF, kan kun et annet
+menneske lese PDF-en for å forstå hva vi mener. Så må mennesket plukke ut
+informasjonen igjen fra dokumentet. Leveranse på PDF påtvinger (a) at
+informasjonen må leses av et mennekse, og (b) at mennesket må ha rett kontekst.
+Dette dreper effektivt de fleste initiativer på digitalisering. Dersom jeg
+prøver å automatisere min arbeidsoppgave, må jeg uansett legge til manuell jobb
+i interaksjonen med prosjektet for øvrig.
+** Hva kan vi forbedre?
 # Hvorfor? Motivasjon.
 
 # Min historie.
