@@ -8,13 +8,13 @@ date: så snart den er ferdig
 #+OPTIONS: num:nil
 
 ** Gjeldende praksis i ingeniørprosjekter fortrenger digitalisering
-Vi ansetter mennesker som går gjennom Norges beste ingeniørutdannelser, med en
-femårig mastergrad. Så binder vi alles hender og føtter for bruk av digitale
-verktøy. Nå skal det leveres, og det skal leveres /for hånd/. Eller, nå som vi
-har blitt "digitale", /for hånd på PC/, med PDF. BIM-modellen begynner å bli et
-unntak, men hva med analysen? Resultater fra analysen? Hvordan deler vi og
-jobber med styrkeanalyser? Nei, det tenker vi ikke så mye på. Det går sikkert
-fint. La oss fortsette med PDF-er.
+I rådgiverbransjen for ingeniørprosjekter ansetter vi mennesker som går gjennom
+Norges beste ingeniørutdannelser, med en femårig mastergrad. Så binder vi alles
+hender og føtter for bruk av digitale verktøy. Nå skal det leveres, og det skal
+leveres /for hånd/. Eller, nå som vi har blitt "digitale", /for hånd på PC/, med
+PDF. BIM-modellen begynner å bli et unntak, men hva med analysen? Resultater fra
+analysen? Hvordan deler vi og jobber med styrkeanalyser? "Nei, det tenker vi
+ikke så mye på. Det går sikkert fint. La oss fortsette med PDF-er."
 
 Så hva er problemet med PDF-er? Det eneste som kan lese en PDF er et mennneske.
 Et menneske med øyne, hjerne og kontekst. Leverer vi en PDF, kan kun et annet
@@ -24,55 +24,17 @@ informasjonen må leses av et mennekse, og (b) at mennesket må ha rett kontekst
 Dette dreper effektivt de fleste initiativer på digitalisering. Dersom jeg
 prøver å automatisere min arbeidsoppgave, må jeg uansett legge til manuell jobb
 i interaksjonen med prosjektet for øvrig.
-** Hva kan vi forbedre?
-# Hvorfor? Motivasjon.
 
-# Min historie.
+For å komme videre, må vi ha /grensesnitt for maskiner/. Så lenge vi ikke
+har grensesnitt for maskiner, tvinger vi mennesker til å gjøre jobben manuelt.
+Da kommer vi ingen vei.
 
-Med bakgrunn innen ingeniørfag og informasjonsteknologi, var det åpenbart for
-meg at vi burde bruke IT inn mot ingeniørfag. Informasjonsteknologi er et
-verktøy. Og det er et fleksibelt verktøy. Der programvareprodukter vi kjøper er
-begrenset til én bruk, er programvare vi bygger selv ubegrenset, fordi vi alltid
-kan ta i bruk det vi allerede har gjort.
-
-Med programvareprodukter må vi gjøre ting på måten som programvaren sier. Vi må
-gjøre det som er tenkt at vi skal gjøre fra leverandøren sin side. I noen
-tilfeller produktbruken snever. I andre tilfeller er produktene svært gode.
-
-Hvorfor er dette viktig? Er vi ikke alltid begrenset? Hvorfor er noe forskjellig
-når vi driver med programmering?
-
-Det handler om marginalkostnader, å løse samme oppgave én gang, og mulighetsrom.
-
-- *Marginalkostnader* blir en betydelig del av prosesser med manuell innsats.
-     Hva når vi må gjøre litt om igjen? Når vi ikke klarer å /løse/ biten av
-     oppgaven (som kan være hvordan vi laster data, hvordan vi produserer nye
-     visualiseringer eller hvordan vi oppdaterer rapporten med nye tall).
-- *Når vi løser samme oppgave én gang* så frigjør vi tankekraft til å løse
-     vanskeligere oppgaver neste gang. Vi må ikke lære oss en lang sekvens av ting
-     vi må gjennom. Hvis vi lager layouten vår for visualiseringene våre /en gang/,
-     kan vi bare sende inn ny data og ha nye plots. Hvis vi løser datalasting /en gang/
-     må vi forstå dataen vi får inn én gang når vi lager prosessen for dataimport.
-     Neste gang refererer vi kun til ny data. Når vi lager rapporten /en gang/,
-     legger vi ikke inn direkte tall som vi bruker, men en referanse til hvor
-     tallene skal hentes, og kjører så oppdatering med ny data er en smal sak.
-- *Mulighetsrommet vi får når vi programmerer* dekker hva vi kan gjøre når vi
-     programmerer som ikke er plausibelt før. Når vi ikke programmerer kan vi
-     kjøre et par-tre analyser for å sjekke utfallet av en parameterendring. Når
-     vi programmerer er det liten forskjell på et par-tre og tre hundre. Vi
-     setter i gang datamaskinen, og den er ferdig når vi kommer tilbake. Tar det
-     tid å kjøre analysene, er det i alle fall ikke vi mennesker som er den
-     begrensende faktoren.
-
-Når dette kommer til å skje er et spørsmål om tid. Grunnen til at vi er der vi
-er i dag er kompetanse på programmering, grad av programmeringsvennlighet i
-eksisterende verktøy og mulighet til modellering av data.
-
-Min vurdering er at industrien besitter kompetanse på programmering hos
-enkeltpersoner som er langt framme. Programmeringsvennlighet i eksisterende
-verktøy er på full fart frem, og det har aldri vært lettere å komme i gang med
-Python. Med tilgang på dagens datakraft og webteknologi, har mulighetene aldri
-vært større.
+Dette er min plan for å endre status quo.
+** Hvilke ferdigheter trenger vi for å digitalisere?
+Industrien besitter kompetanse på programmering hos enkeltpersoner som er langt
+framme. Programmeringsvennlighet i eksisterende verktøy er på full fart frem, og
+det har aldri vært lettere å komme i gang med Python. Med tilgang på dagens
+datakraft og webteknologi, har mulighetene aldri vært større.
 
 Jeg vurderer progresjon mot digitalisering på to akser: programmering og
 datamodellering. I programmering legger jeg enkeltpersoners evne til å lage
