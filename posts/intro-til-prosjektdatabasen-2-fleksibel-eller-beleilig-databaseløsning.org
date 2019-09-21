@@ -46,7 +46,11 @@ palattformløsning, der det eksplisitt vektes standardisering mot
 spesialtilpasning. Og jeg tror aktiv bruk av databaser vil muliggjøre reell
 digitalisering av ingeniørprosjekter.
 
+Teodor
+
+#+begin_center
+~
+#+end_center
+
 /Denne artikkelen er nr 2 i artikkelserien "Intro til prosjektdatabasen".
 [[file:../posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][Artikkel #1]] er allerede publisert. Neste artikkel kommer snart./
-
-Teodor

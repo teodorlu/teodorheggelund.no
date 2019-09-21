@@ -72,7 +72,11 @@ tre grunner:
 Vil du bruke data mer effektivt i ditt prosjekt? Kom i gang med
 [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]].
 
+Teodor
+
+#+begin_center
+~
+#+end_center
+
 /Du har nå lest artikkel 1 i artikkelserien "Intro til prosjektdatabasen". Les
 videre i [[file:/posts/intro-til-prosjektdatabasen-2-fleksibel-eller-beleilig-databasel%C3%B8sning.html][artikkel #2]]./
-
-Teodor
