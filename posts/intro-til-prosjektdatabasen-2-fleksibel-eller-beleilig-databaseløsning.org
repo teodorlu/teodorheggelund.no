@@ -1,5 +1,5 @@
 ---
-title: "Intro til prosjektdatabasen #2: fleksibel eller beleilig databaseløsning"
+title: "Intro til prosjektdatabasen #2: Fleksibel eller beleilig databaseløsning"
 author: Teodor Heggelund
 date: 2019-09-05
 ---
