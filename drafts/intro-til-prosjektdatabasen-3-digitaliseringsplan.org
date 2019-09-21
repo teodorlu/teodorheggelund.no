@@ -21,7 +21,7 @@ Et menneske med øyne, hjerne og kontekst. Leverer vi en PDF, kan kun et annet
 menneske lese PDF-en for å forstå hva vi mener. Så må mennesket plukke ut
 informasjonen igjen fra dokumentet. Leveranse på PDF påtvinger (a) at
 informasjonen må leses av et mennekse, og (b) at mennesket må ha rett kontekst.
-Dette dreper effektivt de fleste initiativer på digitalisering. Dersom jeg
+Dette stopper effektivt de fleste initiativer på digitalisering. Dersom jeg
 prøver å automatisere min arbeidsoppgave, må jeg uansett legge til manuell jobb
 i interaksjonen med prosjektet for øvrig.
 
