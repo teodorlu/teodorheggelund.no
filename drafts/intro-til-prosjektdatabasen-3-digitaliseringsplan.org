@@ -7,7 +7,7 @@ date: så snart den er ferdig
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
-** Gjeldende praksis i ingeniørprosjekter fortrenger digitalisering
+** Gjeldende praksis i ingeniørprosjekter fortrenger digitalisering.
 I rådgiverbransjen for ingeniørprosjekter ansetter vi mennesker som går gjennom
 Norges beste ingeniørutdannelser, med en femårig mastergrad. Så binder vi alles
 hender og føtter for bruk av digitale verktøy. Nå skal det leveres, og det skal
@@ -41,7 +41,7 @@ datamodellering. I programmering legger jeg enkeltpersoners evne til å lage
 programvare. Med modellering refererer jeg til kvaliteten på dataen som ligger
 lagret.
 
-/Evne til programmering/ kan vi beskrive ved en ferdighetsstige:
+/Evne til programmering/ ligger på en ferdighetsstige:
 
 1. Kjennskap til fordeler og ulemper med programmering heller enn Excel-bruk
 2. Evne til scripting for personlig bruk
@@ -49,7 +49,7 @@ lagret.
 4. Evne til utvikling av systemer som andre kan ta i bruk uten
    programmeringskompetanse
 
-/Evne til datamodellering/ kan beskrives tilsvarende:
+/Evne til datamodellering/ beskrives tilsvarende:
 
 1. Kjennskap til fordeler og ulemper ved å modellere data i dataformater heller
    enn Excel-tabeller
@@ -143,13 +143,20 @@ Oppsummert: gjennom å standardisere data inn og/eller data ut med en database,
 gjør vi det mulig å koble verktøy på nye prosjekter. Vi kan da ta med oss
 verktøyene videre, og bruke de igjen i neste prosjekt.
 ** Veien videre
-???
+Veien videre vil alltid være opp til de som jobber i prosjektet. For dem, har
+jeg imidlertid noen ønsker:
 
-Må tenkes litt, her.
+- En mer meningsfull arbeidsdag der mennesker kan gjøre menneskelige
+  vurderinger, og maskiner holde styr på maskinelt bokholderi.
+- At vi i prosjektet kan levere kontinuerlig, der vi på ethvert tidspunkt kan
+  trekke ut resultatene vi ønsker, uten å ha en ekstra fase på slutten av
+  prosjektet med rapportering der vi (forhåpentligvis ikke) legger merke til noe
+  vi skulle gjort noe med for lenge siden.
+- At vi i prosjektet kan gjøre parameterstuder med et funksjonskall; for
+  variasjon over denne parameteren vil jeg ha en oversikt over alle resultater,
+  og kunne spørre om resultater og sammenlikne på tvers av analyser.
+- At vi i prosjektet kan gjøre effektiv gjenbruk mellom prosjekter, der
+  prosedyrer for design vi har bygget oss opp over et tiår er tilgjengelig for
+  oss i hvert nye tilfelle.
 
-- Skarpere verktøy generelt for sivilingeniører
-- Mulighet til å sammenlikne konsepter på effektivt vis, uten å låses til /den
-  nåværende modellen/ i analyseprogrammet
-- Personer i prosjektet kan dele ferdighet og jobb uten å /selv/ måtte gjøre
-  jobben, og bli en flaskehals
-- Mulighet til å bygge kunnskap og verktøy som kan tas med mellom prosjekter
+Skal vi ta en prat? Ta kontakt på [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]].
