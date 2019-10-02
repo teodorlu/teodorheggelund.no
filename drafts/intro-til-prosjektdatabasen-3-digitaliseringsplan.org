@@ -67,7 +67,7 @@ som en kontinuerlig tjeneste som tar hånd om nivå 4. på evne til
 datamodellering.
 
 Men hvordan gjør vi det? Svaret er som alltid, vi bygger en sten av gangen.
-** Steg 1: bygge programmeringskompetanse hos aksjonsgruppe
+** Steg 1: aksjonsgruppen bygger programmeringskompetanse
 Bedriften må ha tre personer som er på nivå 2 på evne til programmering, der de
 besitter evne til å skrive Python-script for egen bruk. Vi starter på enkel
 programmering fordi da kan vi få nytteverdi tidlig -- før vi begynner å snakke
@@ -81,7 +81,7 @@ Fornuftige oppgaver man kan fokusere på:
 - Produsere visualiseringer. Programmering er svært fleksibelt til produksjon av
   illustrasjoner. Et eksempel på god datavisualisering basert på programmering
   kan vi finne hos [[https://www.nytimes.com/interactive/2018/us/elections/house-race-ratings.html?action=click&module=RelatedLinks&pgtype=Article][New York Times]].
-** Steg 2: observasjon: hvordan utveksler vi data i team?
+** Steg 2: observer hvordan utveksler vi data i team
 For mange av de største prosjektene som skal bygge norsk infrastruktur er
 utvekslingsformen som brukes filer på fellesmappe. Hvordan jobber vi da med
 data? Kanskje ber vi en kollega sjekke Excel-arket som vi har oppdatert med
@@ -105,7 +105,7 @@ Disse utfordringene drev fram utvikling på databaser og databasesystemer. En
 database er en samling data som kan utvides når vi får inn ny data. Et
 databasesystem gjør databasen tilgjengelig, så vi alltid kan spørre den om
 informasjon.
-** Steg 3: gi aksjonsgruppen trening i samhandling gjennom database
+** Steg 3: aksjonsgruppen samhander gjennom database
 Her kommer Prosjektdatabase.no inn. Det er ikke lett å vite hvordan man bør
 starte med databasebruk. Flere valg må tas, og utfordringer møtes:
 
@@ -142,6 +142,17 @@ tilgang til.
 Oppsummert: gjennom å standardisere data inn og/eller data ut med en database,
 gjør vi det mulig å koble verktøy på nye prosjekter. Vi kan da ta med oss
 verktøyene videre, og bruke de igjen i neste prosjekt.
+** Steg 5: aksjonsgruppen forbedrer og deler
+Aksjonsgruppen besitter nå kompetanse til å gjøre inkrementell forbedring.
+Bedriften kan nyttiggjøre seg kompetansen på to måter:
+
+1. Aksjonsgruppen bygger opp egne verktøy og prosesser, og blir gradvis mer
+   effektiv
+2. Aksjonsgruppen deler erfaringer, verktøy og prosesser med andre i bedriften.
+
+Punkt 1. vil være selvdreven. Punkt 2. krever mer oppmerksomhet, og kan for
+eksempel gjennomføres ved at når aksjonsgruppen er klar, splittes den i to, og
+deler kunnskapen med nye mennesker.
 ** Veien videre
 Veien videre vil alltid være opp til de som jobber i prosjektet. For dem, har
 jeg imidlertid noen ønsker:
@@ -159,6 +170,7 @@ jeg imidlertid noen ønsker:
   prosedyrer for design vi har bygget oss opp over et tiår er tilgjengelig for
   oss i hvert nye tilfelle.
 
-Skal vi ta en prat? Ta kontakt på [[https://www.prosjektdatabase.no/][Prosjektdatabase.no]].
+Er du interessert, men vet ikke helt hvor du skal starte? Ta kontakt på
+[[https://www.prosjektdatabase.no/][Prosjektdatabase.no]].
 
 Teodor
