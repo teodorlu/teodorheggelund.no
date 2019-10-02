@@ -52,5 +52,5 @@ Teodor
 ~
 #+end_center
 
-/Denne artikkelen er nr 2 i artikkelserien "Intro til prosjektdatabasen".
-[[file:../posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][Artikkel #1]] er allerede publisert. Neste artikkel kommer snart./
+/Du har nå lest artikkel 2 i artikkelserien "Intro til prosjektdatabasen".
+[[file:/posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][Artikkel #1]] er allerede publisert. Les videre i [[file:/posts/intro-til-prosjektdatabasen-3-digitaliseringsplan.html][artikkel #3]]./
