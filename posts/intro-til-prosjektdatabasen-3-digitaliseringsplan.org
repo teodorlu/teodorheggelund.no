@@ -1,7 +1,7 @@
 ---
 title: "Intro til prosjektdatabasen #3: Digitaliseringsplan for rådgivende ingeniørbedrifter"
 author: Teodor Heggelund
-date: så snart den er ferdig
+date: 2019-10-02
 ---
 
 #+OPTIONS: toc:nil
@@ -73,7 +73,7 @@ besitter evne til å skrive Python-script for egen bruk. Vi starter på enkel
 programmering fordi da kan vi få nytteverdi tidlig -- før vi begynner å snakke
 om databaser, er vi i stand til å hente nytteverdi i små prosjekter.
 
-Fornuftige oppgaver man kan fokusere på:
+Fornuftige oppgaver menneskene i aksjonsgruppen kan fokusere på inkluderer:
 
 - Kunne behandle tabeller som kommer fra Excel med programmering. Når vi
   allerede har data i Excel, kan vi bruke den til noe nyttig. Når vi er ferdig,
