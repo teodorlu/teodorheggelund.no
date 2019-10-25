@@ -12,6 +12,6 @@ Jeg vedlikeholder denne nettsiden for å dele informasjon, og lære noe av
 prosessen. Øvrig liker jeg å lære, lære bort, og diskutere det som er viktig.
 
 ** Kontakt
-Ta kontakt på [[mailto:teodor@teodorheggelund.com][E-post]].
+Vennligst ta kontakt på [[mailto:contact+web@teodorheggelund.com][E-post]]!
 ** Denne siden
 Du finner kildekoden for denne nettsiden på [[https://github.com/teodorlu/teodorheggelund.no][Github]].
