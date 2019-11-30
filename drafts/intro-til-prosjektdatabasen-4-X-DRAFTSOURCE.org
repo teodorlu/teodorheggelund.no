@@ -1,0 +1,93 @@
+* DRAFT SOURCE 1 MINDSTREAM
+It was the worst of times.
+
+It was the best of times.
+
+Variability is the theme.
+
+.....
+
+But -- where do we go?
+
+Takk. Takk for muligheten. Takk for muligheten til å være min egen
+retningssetter. Muligheten til å jobbe med hva som er /virkelig viktig/, uten
+filtre. Muligheten til å ta på noe ekte.
+
+Så hva med motivasjon?
+
+Vel, to måneder på å etablere en bedrift og innføre en ny forretningsmodell i et
+konservativt marked er bare ikke noe som kommer til å skje. Men nå vet jeg det.
+Nå vet jeg det helt sikkert.
+
+Har vi noe i tankene? Kanskje? Hmm.
+
+Hva har jeg lært?
+
+- På to måneder får man gjort fantastisk mye teknisk arbeid.
+- Men den medfølgende jobben med markedet kan være betydelig større.
+- Skal du tjene penger, bør du også la andre tjene penger. Hvordan kan andre
+  tjene penger på deg? Har du et svar på det spørsmålet, er din sjanse for å slå
+  gjennom langt større enn om du må støtte deg på håp, idealer og din visjon for
+  framtiden. Det er lettere å nå en framtid når stegene underveis går rett vei.
+  Når hvert steg er positivt, for alle involverte.
+
+Det er hva en markedsstrategi er. Det er slik det fungerer. Du vil inn en god
+spiral, som aksellererer seg selv. Der forbedring gir verdi til alle, og
+merverdi til alle. En god, aksellererende sykel.
+
+...
+
+Annet? Tja. Pass på hva du sier. Pass på om du reduserer sannheten. Skal du
+forklare noe, er en forenklet forståelse OK. Skal du selge noe, kan en forenklet
+forklaring ødelegge salget ditt. I salg er ukjent topp på potensial positivt.
+Det betyr at du må mykne opp i språkbruken din. Spesifikke begreper begrenser.
+Åpne begreper muliggjør, selv om de kan være vage. Bruk begge. Legg til rette
+for stabile forventninger for den nedre grensen. Og sett visjonen, sett drømmen,
+for hvor fantastisk bra framtiden kan bli.
+* TEXT DRAFT 1 REALSTUFF
+Prosjektdatabase.no -- status, framtid og læring.
+
+Jeg jobber nå som solutions engineer / backendutvikler hos Iterate AS. I denne
+artikkelen kommer jeg til å synliggjøre mine grunner for mitt valg, og fortelle
+litt om hva jeg lærte av å jobbe med Prosjektdatabase.no.
+
+Denne artikkelen vil være mindre strukturert enn de foregående. =Hopp til
+oppsummeringen i slutten om du vil ha svar med to streker=.
+
+Fra starten av har jeg definert Prosjektdatabase.no som et markedseksperiment.
+Løsingen adresserer et problem jeg har hatt, og fraværet av verktøy som
+Prosjektdatabase.no tilbyr har hindret meg i mitt ingeniørarbeid i tidligere
+prosjekter. Totalt sett gjetter jeg at mangelen på gode datamodeller innen
+krevende ingeniørprosjekter koster oss om lag 30 % ekstra tid, gjør gjenbruk nær
+umulig mellom prosjekter, og hemmer innovasjon. Gjenbruk innen
+programvareutvikling er krevende, men der finnes det i alle fall økosystemer for
+utvikling av biblioteker.
+
+... Tilbake på sporet. Prosjektdatabase.no er et markedseksperiment. Hvorfor?
+Jeg mener løsningen er rett. Betyr det at jeg kan klare å tjene penger på det?
+Og med hvilke begrensninger? Jeg var aldri interessert i å starte et eget
+konsulentselskap og leie meg ut. Grunnen til det er enkel -- jeg liker å treffe
+folk på jobb. Så jeg ville se om jeg kunne selge en tjeneste, tjenesten jeg
+skulle hatt, en tjeneste som ville fungert i prosjekt, som ikke er priset helt
+ut av markedet. Det fikk jeg til.
+
+Men hvordan lager man egentlig kjøpsvilje? Og /særlig/, hvilke tjenester er
+konsulenter villige til å kjøpe? Du bør ha et godt svar på. Og da bør det være
+grunnleggende tjenester. Hvis du kan argumentere for at din leveranse går rett
+ut på kundens bunnlinje i grønne tall, har du en god sak. Men hvordan blir det
+når konsulentene skal kjøpe mer greier? Hvorfor skal de gi gratis stæsj til
+oppdragsgiveren? Og når du i tillegg legger på usikkerhet rundt nye tjenester?
+
+Alt dette var vage problemstillinger i bakhodet mitt da jeg vurderte å satse
+mine egne sparepenger på en markedshypotese. For å begrense nedesiden på
+risikoen jeg tok, ga jeg meg selv to måneder. To måneder til å finne ut om jeg
+kan få dette til å gå i null. Nå konkluderer jeg med at to måneder ikke er nok.
+Jeg legger derfor Prosjektdatabase.no til side som fulltidsprosjekt.
+
+Jeg lovte dere noen lekser.
+
+1. Ta litt begrenset nedeside for en potensielt uavgrenset oppeside. Dette var
+   byttet jeg gjorde. To månedslønner inn, så får vi se hva vi får ut. Hva er så
+   bra med dette? Jeg vil gi to poenger. (a) forventingsverdi. (b) akkumulerende
+   effekter.
+

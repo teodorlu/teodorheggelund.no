@@ -1,0 +1,22 @@
+---
+title: "Intro til prosjektdatabasen #3: Digitaliseringsplan for rådgivende ingeniørbedrifter"
+author: Teodor Heggelund
+date: 2019-10-02
+---
+
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+/Dette er artikkel #3 i artikkelserien "Intro til prosjektdatabasen". I [[file:/posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][artikkel #1]] tok jeg for meg hvorfor databaser bør brukes i ingeniørprosjekter, og hvorfor bruken ikke har vært større før nå. I [[file:/posts/intro-til-prosjektdatabasen-2-fleksibel-eller-beleilig-databasel%C3%B8sning.html][artikkel #2]] diskuterte jeg mulige databaseløsnigner./
+
+Er du interessert, men vet ikke helt hvor du skal starte? Ta kontakt på
+[[https://www.prosjektdatabase.no/][Prosjektdatabase.no]].
+
+Teodor
+
+#+begin_center
+~
+#+end_center
+
+/Du har nå lest artikkel 3 i artikkelserien "Intro til Prosjektdatabasen".
+[[file:/posts/intro-til-prosjektdatabasen-hvordan-vi-kom-hit.html][Artikkel #1]] og [[file:/posts/intro-til-prosjektdatabasen-2-fleksibel-eller-beleilig-databasel%C3%B8sning.html][artikkel #2]] er allerede publisert./
