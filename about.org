@@ -5,8 +5,8 @@ title: Om meg
 Hei!
 
 Mitt navn er Teodor. Jeg er en teknolog med erfaring innen ingeniørfag og
-informasjonsteknologi, og mener at disse har mye å tjene på å snakke bedre
-sammen.
+informasjonsteknologi. Grensesjiktet mellom ingeniørfag og informasjonsteknologi
+lenge grepet min oppmerksomhet.
 
 Jeg vedlikeholder denne nettsiden for å dele informasjon, og lære noe av
 prosessen. Øvrig liker jeg å lære, lære bort, og diskutere det som er viktig.
